@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Wholesale PK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header .nav {
+            margin-top: 10px;
+        }
+        header .nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .banner {
+            background-image: url('https://i.redd.it/msl53vqmf4xb1.jpg'); /* Replace with your banner image */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding: 50px 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .banner h2 {
+            margin: 0;
+            font-size: 36px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 300px;
+            position: relative;
+            transition: transform 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-card h2 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-card p {
+            color: #666;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .product-card button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .product-card button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+        .product-card .sale,
+        .product-card .hot {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #ff5733;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .product-card .hot {
+            background-color: #f39c12;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+        /* Floating WhatsApp Button */
+        .whatsapp-chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            z-index: 1000;
+            cursor: pointer;
+            transition: transform 0.3s;
+            display: flex;
+            align-items: center;
+        }
+        .whatsapp-chat-button:hover {
+            transform: scale(1.1);
+        }
+        .whatsapp-chat-button img {
+            width: 25px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to LaptopWholesale.pk</h1>
+        <div class="nav">
+            <a href="index.html">Home</a> | <a href="contact.html">Contact Us</a> | <a href="tracking.html">Tracking</a>
+        </div>
+    </header>
+    <div class="banner">
+        <h2>Exclusive Deals on High-Quality Laptops</h2>
+        <p>Shop Now and Get the Best Prices in Pakistan!</p>
+    </div>
+    <div class="container">
+        <!-- Product Cards -->
+        <a href="Dell-3180-Laptop-In-Pakistan.html" class="product-card">
+            <span class="sale">Sale</span>
+            <img src="https://cdn.otabazaar.com/imedia/2023/08/08171509/Dell-Latitude-3180-otabazaar.webp" alt="Dell 3180 Laptop">
+            <h2>Dell 3180 6th Gen Windows 10 Laptop</h2>
+            <p>Price: Just Rs10,000</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Lenovo-100e-9th-Gen-Laptop-In-Pakistan.html" class="product-card">
+            <span class="hot">Hot</span>
+            <img src="https://cdn1.totalcommerce.cloud/linalca/product-image/es/laptop-chromebook-lenovo-100e-2nd-gen-ast-11.6%22-hd-tn%2C-amd-a4_9120c-1.6-~-2.4ghz%2C-ram-4gb%2C-emmc-32gb%2C-chrome-os.-1.webp" alt="Lenovo 100e2 9th Gen">
+            <h2>Lenovo 9th Gen Laptop With Play Store</h2>
+            <p>Price: Just Rs 12,500</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Dell-3189-360-Touch-Screen-Laptop-in-Pakistan.html" class="product-card">
+            <span class="sale">Sale</span>
+            <img src="https://img.drz.lazcdn.com/static/pk/p/015eb8d155c9bac1ee5361bcb63facc5.jpg_960x960q80.jpg_.webp" alt="Dell 3189">
+            <h2>Dell 3189 360 Touch Screen Laptop With Windows 10</h2>
+            <p>Price: Just Rs 11,500</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Hp-G4-14-inch-Laptop-in-Pakistan.html" class="product-card">
+            <span class="hot">Hot</span>
+            <img src="https://images.priceoye.pk/hp-chromebook-14-g4-intel-celeron-02gb-ram-16gb-ssd-pakistan-priceoye-grgm4-500x500.webp" alt="Hp g4 14 inches">
+            <h2>Hp G4 14" 5th Gen Laptop With Windows 10</h2>
+            <p>Price: Just Rs 13,999</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Dell-3100-8th-Gen-Laptop-In-Pakistan.html" class="product-card">
+            <span class="sale">Sale</span>
+            <img src="https://images.priceoye.pk/hp-chromebook-14-g4-intel-celeron-02gb-ram-16gb-ssd-pakistan-priceoye-grgm4-500x500.webp" alt="Laptop 3100">
+            <h2>Dell 3100 8th Gen Laptop With Playstore</h2>
+            <p>Price: Just Rs 10,000</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Dell-3120-5th-Gen-Laptop-Windows-10-In-Pakistan.html" class="product-card">
+            <span class="sale">Sale</span>
+            <img src="https://leyjao.pk/images/detailed/639/8f67ad2ccff4ec0bdd55c7d36942cd4e.jpg_720x720q80.jpg_.webp" alt="Dell 3120 5th Gen Laptop">
+            <h2>Dell 3120 5th Gen Laptop Windows 10</h2>
+            <p>Price: Just Rs 8,500</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Acer-C740-5th-Gen-Laptop-Windows10-in-Pakistan.html" class="product-card">
+            <span class="hot">Hot</span>
+            <img src="https://uztech.pk/wp-content/uploads/2024/11/la.webp" alt="acer c740">
+            <h2>Acer | C740 | 16GB Storage | 4GB RAM | 11.6″ Display | Windows 10 | 9 Hours Battery | Chromebook</h2>
+            <p>Price: Just Rs 9,500</p>
+            <button>Buy Now</button>
+        </a>
+        <a href="Lenovo-N23-Laptop-With-Windows10-In-Pakistan.html" class="product-card">
+            <span class="sale">Sale</span>
+            <img src="https://img.drz.lazcdn.com/static/pk/p/a16954165679f2d3137aa71ae5ac708c.jpg_960x960q80.jpg_.webp" alt="Laptop 8">
+            <h2>Lenovo | N23 Chromebook | 16GB Storage | 4GB RAM | 11.6″ Display | Rotatable Camera | Windows 10 | Chromebook</h2>
+            <p>Price: Just Rs 8,500</p>
+            <button>Buy Now</button>
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2025 LaptopWholesale.pk | All Rights Reserved</p>
+    </footer>
+    
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923342275308" target="_blank">
+        <div class="whatsapp-chat-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon"> Chat Now on WhatsApp
+        </div>
+    </a>
+    
+</body>
+</html>

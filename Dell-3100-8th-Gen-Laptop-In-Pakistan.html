@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Dell 3180 Laptop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .nav {
+            margin-top: 10px;
+        }
+        .nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .product-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .product-image {
+            width: 45%;
+            position: relative;
+        }
+        .product-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .sale-banner {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ff4d4d;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        .product-details {
+            width: 45%;
+            padding: 20px;
+        }
+        .product-details h2 {
+            font-size: 28px;
+            color: #333;
+        }
+        .product-details p {
+            font-size: 18px;
+            color: #666;
+        }
+        .specs {
+            margin: 20px 0;
+        }
+        .specs ul {
+            list-style: none;
+            padding: 0;
+        }
+        .specs ul li {
+            font-size: 18px;
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        .specs ul li span {
+            margin-left: 10px;
+        }
+        .order-form {
+            width: 100%;
+            margin-top: 30px;
+        }
+        .order-form input, .order-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .order-form button {
+            background-color: #059914;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+            animation: bounce 0.8s infinite;
+        }
+        .order-form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        /* Media query for desktop */
+        @media (min-width: 768px) {
+            .product-container {
+                flex-wrap: nowrap;
+            }
+            .product-image {
+                width: 50%;
+            }
+            .product-details {
+                width: 50%;
+            }
+            .order-form {
+                width: 80%;
+                margin-top: 0;
+            }
+        }
+
+        /* Media query for mobile */
+        @media (max-width: 767px) {
+            .product-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .product-image, .product-details {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+            .order-form {
+                width: 90%;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to LaptopWholesale.pk</h1>
+        <div class="nav">
+            <a href="index.html">Home</a> | <a href="contact.html">Contact Us</a> | <a href="tracking.html">Tracking</a>
+        </div>
+    </header>
+    
+    <div class="product-container">
+        <div class="product-image">
+            <img src="https://starcity.pk/wp-content/uploads/2023/03/Dell-Chromebook-3100-1-768x768.jpg" alt="Dell 3100 laptop">
+            <div class="sale-banner">🔥 45% OFF 🔥</div>
+        </div>
+        <div class="product-details">
+            <h2>Dell Chromebook 3100 | Intel Celeron N4000 Processor | 4GB Ram | 16GB Storage | 11.6″ Display | 2027 Updateable | Chromebook
+</h2>
+            <p>Price: <span style="font-size: 24px; color: #007bff;">Just Rs10,000</span></p>
+
+            <div class="specs">
+                <h3>Specifications:</h3>
+                <ul>
+                    <li>✅ <span>Processor: Intel ‎Celeron N4000 8th Gen 🖥️</span></li>
+                    <li>✅ <span>4GB DDR4 2400 MHZ RAM 💻</span></li>
+                    <li>✅ <span>16GB Storage SSD 🗄️</span></li>
+                    <li>✅ <span>11.6" Display 📱</span></li>
+                    <li>✅ <span>PLayStore Support 💾</span></li>
+                    <li>✅ <span>Cash On Delivery All Over Pakistan &#128184</span></li>
+                    <li>✅ <span>Rs 250 Advance Required &#9992</span></li>
+                </ul>
+            </div>
+
+            <div class="order-form">
+                <h3>Order Form</h3>
+                <form action="https://wa.me/923342275308?text=Product%20Page:%20Dell%203180%20Laptop%0AName:%20{user_name}%0AMobile%20Number:%20{user_mobile}%0ACity:%20{user_city}%0ANearest%20Famous%20Place:%20{user_place}%0AComplete%20Address:%20{user_address}" method="GET" target="_blank">
+                    <input type="text" name="user_name" placeholder="Your Name" required>
+                    <input type="tel" name="user_mobile" placeholder="Your Mobile Number" required>
+                    <input type="text" name="user_city" placeholder="City" required>
+                    <input type="text" name="user_place" placeholder="Nearest Famous Place" required>
+                    <textarea name="user_address" placeholder="Complete Address" required></textarea>
+                    <button type="submit">Buy Now With WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 LaptopWholesale.pk | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

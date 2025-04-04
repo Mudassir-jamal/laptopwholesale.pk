@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking - LaptopWholesale.pk</title>
+    <style>
+        /* Reset some styles for a cleaner design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .tracking-container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .tracking-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .tracking-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .tracking-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .tracking-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .tracking-link {
+            margin-top: 20px;
+        }
+
+        .tracking-link a {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .tracking-link a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LaptopWholesale.pk</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="tracking.html">Tracking</a>
+        </nav>
+    </header>
+
+    <div class="tracking-container">
+        <h2>Track Your Order</h2>
+        
+
+        
+
+            <div class="tracking-link">
+                <p>you can also track your order directly on the PostEx website.</p>
+                <a href="https://www.postex.pk/tracking" target="https://www.postex.pk/tracking">Track on PostEx Website</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 LaptopWholesale.pk | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function trackOrder() {
+            const trackingNumber = document.getElementById("trackingNumber").value;
+
+            if (trackingNumber.trim() === "") {
+                alert("Please enter a tracking number.");
+                return;
+            }
+
+            // If you wish to integrate a tracking API, you can place your logic here.
+            // For now, it just shows an alert with the entered tracking number.
+            alert("Tracking Number: " + trackingNumber);
+        }
+    </script>
+
+</body>
+</html>
